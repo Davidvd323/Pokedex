@@ -96,3 +96,11 @@ body {
     text-align: left;
   }
   
+  @media (max-width: 600px) {
+    .pokemon-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      width: 80%;
+      }
+  }
